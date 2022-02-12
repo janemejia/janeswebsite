@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+/*Fondo del sitio*/
+body{
+  background-color: white;
+  }
+
+/*Homebar*/
+.homebar{
+  overflow: hidden;
+  background-color: darkviolet;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.homebar a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.homebar a:hover{
+  background: #dfbbfb;
+  color: white;
+}
+
+.main{
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+/*Banner*/
+.banner{
+  width: 100%;
+  height: 200px;
+  background-color: darkviolet;
+}
+
+.banner img{
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 10px auto;
+}
+
+/*Titulos*/
+h1{
+  font-family: 'Rowdies', cursive;
+  font-size: 50px;
+  color: darkviolet;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Rowdies', cursive;
+  font-size: 40px;
+  color: darkviolet;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Rowdies', cursive;
+  font-size: 20px;
+  color: darkviolet;
+  text-align: center;
+}
+
+h4{
+  font-family: 'Rowdies', cursive;
+  font-size: 15px;
+  color: darkviolet;
+  text-align: left;
+}
+
+/**Parrafos**/
+p{
+  text-align: center;
+  color: black;
+  font-family: 'Gideon Roman', cursive;
+  font-size: 20px;
+}
+
+/**Botones**/
+.columna{
+  column-count: 3;
+  column-gap: 20px;
+  list-style: none;
+}
+
+/**Links**/
+a{
+  font-family: 'Rowdies', cursive;
+  background-color: darkviolet;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+/**Cajas de comentarios**/
+.caja{
+  font-family: 'Gideon Roman', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  background: #dfbbfb;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+-moz-border-radius: 35px 0px 35px 0px;
+-webkit-border-radius: 35px 0px 35px 0px;
+border: 2px solid darkviolet;
+}
+
+/*Listados**/
+ul{
+  list-style: none;
+  text-align: center;
+  font-family: 'Rowdies', cursive;
+  color: darkviolet;
+}
